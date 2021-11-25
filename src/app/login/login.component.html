@@ -1,0 +1,13 @@
+<h1>Login</h1>
+<div class="container">
+  <div *ngIf="isInvalidUser">
+    <span>Invalid User... </span>
+  </div>
+  <div>
+    UserNae: <input type="text" [(ngModel)] ="userName"/>
+    Password: <input type="password" [(ngModel)] ="password" />
+
+    <button (click) = "onLogin()"class="btn btn-default">Login</button>
+
+  </div>
+</div>
