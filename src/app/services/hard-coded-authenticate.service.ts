@@ -22,4 +22,8 @@ export class HardCodedAuthenticateService {
       return true;
     else return false;
   }
+
+  onLogout(){
+    sessionStorage.removeItem("user");
+  }
 }
