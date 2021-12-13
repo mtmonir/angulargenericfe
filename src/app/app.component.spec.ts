@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'AngularGenericFE'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('AngularGenericFE');
+    expect(app.title).toEqual('Angular Generic Front End (AngularGenericFE)');
   });
 
   it('should render title', () => {
